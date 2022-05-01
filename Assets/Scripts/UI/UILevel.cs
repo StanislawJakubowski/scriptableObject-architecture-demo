@@ -1,12 +1,13 @@
+
 using ScriptableObjects.EventChannels;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace UI
 {
-    public class UIMainMenu : MonoBehaviour
+    public class UILevel : MonoBehaviour
     {
-        [SerializeField] private Button _playNextLevel;
+        [SerializeField] private Button _loadMainManu;
         
         [Header("Broadcasting on")]
         [SerializeField] private SceneEventChannelSO _loadScene;
@@ -18,13 +19,14 @@ namespace UI
 
         private void SetupButtons()
         {
-            _playNextLevel.onClick.AddListener(OnPlayNextLevelButtonClicked);
+            _loadMainManu.onClick.AddListener(OnLoadMainManuButtonClicked);
         }
         
-        private void OnPlayNextLevelButtonClicked()
+        private void OnLoadMainManuButtonClicked()
         {
-            _playNextLevel.gameObject.SetActive(false);
-            _loadScene.RaiseEvent(SceneType.Level);
+            _loadMainManu.gameObject.SetActive(false);
+            _loadScene.RaiseEvent(SceneType.MainManu);
         }
     }
+    
 }

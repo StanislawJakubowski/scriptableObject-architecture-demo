@@ -45,6 +45,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f585ba437331df548bcb72ed6329a849, type: 2}
   - {fileID: 11400000, guid: 10e6933f9c4f2564cae74954036cada6, type: 2}
   - {fileID: 11400000, guid: fbd2c0e902f89b7448472ed740e32b29, type: 2}
+  - {fileID: 11400000, guid: 9e0583950077f604ea5d1439e15b7d4b, type: 2}
+  - {fileID: 11400000, guid: 8533b6b697aca1744b68d8358f1b65ce, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1

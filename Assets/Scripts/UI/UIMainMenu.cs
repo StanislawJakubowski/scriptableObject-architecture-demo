@@ -1,13 +1,17 @@
+using ScriptableObjects.EventChannels;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace UI
 {
-    public class UIMainMenuMenu : MonoBehaviour
+    public class UIMainMenu : MonoBehaviour
     {
         [SerializeField] private Button _playNextLevel;
         
-        private void Start()
+        [Header("Broadcasting on")]
+        [SerializeField] private SceneEventChannelSO _loadScene;
+        
+        public void Init()
         {
             SetupButtons();
         }
@@ -20,7 +24,7 @@ namespace UI
         private void OnPlayNextLevelButtonClicked()
         {
             _playNextLevel.gameObject.SetActive(false);
-            // load next scene
+            _loadScene.RaiseEvent(SceneType.Level);
         }
 
     }

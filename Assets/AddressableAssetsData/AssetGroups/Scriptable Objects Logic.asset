@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Scriptable Objects Logic
+  m_EditorClassIdentifier: 
+  m_GroupName: Scriptable Objects Logic
+  m_Data:
+    m_SerializedData: []
+  m_GUID: cef946639ec251848baac4002ddd8a2f
+  m_SerializeEntries:
+  - m_GUID: 718d4b9bf53448946a0bcfbe8d7910bb
+    m_Address: Assets/ScriptableObjects/Events/SceneManagement/On_Scene_Ready_Channel.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dedf2a4db03aee44ca9059954fb81595
+    m_Address: Assets/ScriptableObjects/Events/SceneManagement/Load_Scen_Event_Channel_SO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9ed977ec07e112b44b273e8964f95b9b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2fdab5d9982c4044481feec0fd5f188b, type: 2}
+    - {fileID: 11400000, guid: 710b2f0511ec51647bd533d96b1113b7, type: 2}

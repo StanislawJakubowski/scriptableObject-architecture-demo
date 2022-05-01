@@ -5,7 +5,7 @@ namespace ScriptableObjects.EventChannels
 {
     public enum SceneType
     {
-        MainManu,
+        MainMenu,
         Level
     }
 

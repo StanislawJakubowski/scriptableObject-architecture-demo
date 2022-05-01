@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Scene_Management
 {
-    public class MainManu : MonoBehaviour
+    public class MainMenu : MonoBehaviour
     {
         [SerializeField] private UIMainMenu _uiMainMenu;
         

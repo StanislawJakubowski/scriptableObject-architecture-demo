@@ -194,7 +194,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Main Manu
+  m_Text: Main Menu
 --- !u!222 &24743057
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -296,7 +296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e0dee3e3073f8a49a79c5f01e8a0014, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _loadMainManu: {fileID: 1071744120}
+  _loadMainMenu: {fileID: 1071744120}
   _loadScene: {fileID: 11400000, guid: dedf2a4db03aee44ca9059954fb81595, type: 2}
 --- !u!224 &38542962
 RectTransform:
@@ -532,7 +532,7 @@ GameObject:
   - component: {fileID: 1071744121}
   - component: {fileID: 1071744120}
   m_Layer: 5
-  m_Name: Button Main Manu
+  m_Name: Button Main Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

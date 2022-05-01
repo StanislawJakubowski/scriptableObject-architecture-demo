@@ -1,4 +1,3 @@
-
 using ScriptableObjects.EventChannels;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,7 +6,7 @@ namespace UI
 {
     public class UILevel : MonoBehaviour
     {
-        [SerializeField] private Button _loadMainManu;
+        [SerializeField] private Button _loadMainMenu;
         
         [Header("Broadcasting on")]
         [SerializeField] private SceneEventChannelSO _loadScene;
@@ -19,13 +18,13 @@ namespace UI
 
         private void SetupButtons()
         {
-            _loadMainManu.onClick.AddListener(OnLoadMainManuButtonClicked);
+            _loadMainMenu.onClick.AddListener(OnLoadMainManuButtonClicked);
         }
         
         private void OnLoadMainManuButtonClicked()
         {
-            _loadMainManu.gameObject.SetActive(false);
-            _loadScene.RaiseEvent(SceneType.MainManu);
+            _loadMainMenu.gameObject.SetActive(false);
+            _loadScene.RaiseEvent(SceneType.MainMenu);
         }
     }
     

@@ -37,7 +37,7 @@ namespace Scene_Management
         
         private void LoadSceneEventRaised(SceneType sceneType)
         {
-            if (sceneType == SceneType.MainManu)
+            if (sceneType == SceneType.MainMenu)
             {
                 LoadMainMenu();
                 return;

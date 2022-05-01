@@ -29,10 +29,9 @@ namespace Scene_Management
         private IEnumerator LoadSceneRoutine(AssetReference sceneToLoad)
         {
             yield return UnloadPreviousSceneIfNecessaryRoutine();
-            
+
             sceneToLoad.LoadSceneAsync(LoadSceneMode.Additive).Completed += SceneLoadComplete;
             _currentlyLoadedScene = sceneToLoad;
-            
         }
         
         private IEnumerator UnloadPreviousSceneIfNecessaryRoutine()

@@ -19,6 +19,5 @@ namespace Scene_Management
         {
             SceneManager.UnloadSceneAsync(0);
         }
-        
     }
 }

@@ -6,3 +6,7 @@ Such use of SO allows to avoid dependency to each other. Scenes are created as b
 This way it's clean and easy to debug.
 
 I was inspired by Unity Open Project # 1: Chop Chop
+
+<p align="middle">
+<img src="Diagram/Scene architecture.png" width="600"/>
+</p>

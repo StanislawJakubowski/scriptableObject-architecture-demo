@@ -7,5 +7,5 @@ This way it's clean and easy to debug.
 
 I was inspired by Unity Open Project # 1: Chop Chop
 <p align="middle">
-<img src="Scene architecture diagram.png" width="600"/>
+<img src="Scene architecture diagram.png" width="800"/>
 </p>
